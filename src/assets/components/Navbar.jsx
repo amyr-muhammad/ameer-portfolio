@@ -2,7 +2,8 @@ import './navbar.css'
 function Navbar() {
     return (
         <>
-            <div className="card"></div>
+            <div className="card">
+            </div>
         </>
     )
 }
