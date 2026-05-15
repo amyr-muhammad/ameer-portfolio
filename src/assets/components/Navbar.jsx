@@ -2,11 +2,11 @@ import './navbar.css'
 function Navbar() {
     return (
         <>
-            <div className="card">
-                <a href="" className='link'>Ameer Muhammad</a>
-                <a href="" className='link'>About me</a>
-                <a href="" className='link'>Skills</a>
-                <a href="" className='link'>Projects</a>
+            <div className="navbar">
+                <a href="" className='navlink'>Ameer Muhammad</a>
+                <a href="" className='navlink'>About me</a>
+                <a href="" className='navlink'>Skills</a>
+                <a href="" className='navlink'>Projects</a>
             </div>
         </>
     )
