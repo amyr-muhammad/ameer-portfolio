@@ -1,13 +1,32 @@
-.card {
-  /* backdrop-filter: blur(7px) saturate(139%); */
+
+.card{
   background-color: #BDBDBD;
   border-radius: 50px;
-  /* border: 1px solid rgba(255, 255, 255, 0.125); */
   width: 50vw;
   height: 40px;
+  margin-top:10px;
+  display:flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.link{
+  text-decoration: none;
+  color: #1A1A4C;
+  font-size: 20px;
+  font-family:'Clash Display', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  z-index: 10;
+}
+
+.link:first-child {
+  margin-right: auto;
 }
 
 body {
+  background-image: url(/src/assets/images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
