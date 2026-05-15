@@ -1,4 +1,10 @@
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar{
   background-color: #BDBDBD;
   border-radius: 50px;
@@ -23,10 +29,3 @@
   margin-right: auto;
 }
 
-body {
-  background-image: url(/src/assets/images/Background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-}

@@ -1,9 +1,9 @@
-import Navbar from './assets/components/navbar'
+import Hero from './assets/components/hero/Hero.jsx'
 
 function App() {
   return (
     <>
-    <Navbar />
+      <Hero />
     </>
   )
 }
