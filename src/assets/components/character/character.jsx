@@ -1,7 +1,7 @@
 
-function Character(){
-    return(
-        <div className="img-container 
+function Character() {
+    return (
+        <div className=" 
         w-[25%]
         h-[80vh]
         flex 
@@ -11,7 +11,7 @@ function Character(){
         rounded-[200px]
         overflow-hidden
         my-auto">
-            <img src="/src/assets/images/Character.png" alt="Character" className='w-207.5 h-207.5 object-cover'/>
+            <img src="/src/assets/images/Character.png" alt="Character" className='w-207.5 h-207.5 object-cover' />
         </div>
     )
 }
