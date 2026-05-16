@@ -1,0 +1,19 @@
+.img-container {
+  width: 20%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bdbdbd;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.img-container img {
+  width: 600px;
+  height: 600px;
+  border-radius: 50px;
+  object-fit: cover;
+}
