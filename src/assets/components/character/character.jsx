@@ -1,9 +1,17 @@
-import './character.css'
 
 function Character(){
     return(
-        <div className="img-container">
-            <img src="/src/assets/images/Character.png" alt="Character" />
+        <div className="img-container 
+        w-[25%]
+        h-[80vh]
+        flex 
+        justify-center 
+        items-center 
+        bg-[#bdbdbd] 
+        rounded-[200px]
+        overflow-hidden
+        my-auto">
+            <img src="/src/assets/images/Character.png" alt="Character" className='w-207.5 h-207.5 object-cover'/>
         </div>
     )
 }
