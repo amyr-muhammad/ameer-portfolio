@@ -1,10 +1,9 @@
-import Herotext from "../herotext/Herotext";
 
 function Character() {
     return (
         <>
             <div className="
-                        w-[40vw] sm:w-[30vw] md:w-[31vw] lg:w-[32vw]
+                        w-[40vw] sm:w-[23vw] md:w-[24vw] lg:w-[25vw]
                         aspect-3/4
                         flex 
                         justify-center 

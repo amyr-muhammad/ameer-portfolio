@@ -1,6 +1,5 @@
 import Navbar from '../navbar/Navbar.jsx'
-import Character from '../character/character.jsx'
-import Herotext from '../herotext/Herotext.jsx';
+import Herotext from './Herotext.jsx';
 
 
 

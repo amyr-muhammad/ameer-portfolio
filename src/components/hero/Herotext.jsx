@@ -1,4 +1,5 @@
-import Character from "../character/character";
+import Character from "./character.jsx";
+
 function Herotext() {
     return (
         <>
