@@ -14,6 +14,7 @@ function Character() {
                         my-auto
                         shrink-0
                         z-10
+                        
                         ">
                 <img
                     src="/src/assets/images/Character.png"
