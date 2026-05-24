@@ -30,7 +30,10 @@ function About() {
                         <a href="" className="flex justify-start items-center text-[#1a1a4c]"><FaLinkedin />: Ameer Muhammad</a>
                         <a href="" className="flex justify-start items-center text-[#1a1a4c]">< FaSquareInstagram />: amyr_muhmmad</a>
                     </GlassCard>
-                    <GlassCard></GlassCard>
+                    <GlassCard size="small">
+                        Tech stack:
+                        
+                    </GlassCard>
 
                     <img
                         src="./src/assets/images/Character.png"
