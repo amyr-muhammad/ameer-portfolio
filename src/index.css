@@ -1,5 +1,6 @@
-@import "tailwindcss";
+/* css-lint disable unknownAtRules */
 
+@import "tailwindcss";
 
 @font-face {
   font-family: "ClashDisplay";
@@ -8,9 +9,25 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "ClashDisplayMedium";
+  src: url("./assets/fonts/ClashDisplay-Medium.woff");
+}
+
+@font-face {
+  font-family: "ClashDisplayBold";
+  src: url("./assets/fonts/ClashDisplay-Semibold.woff");
+}
+
+@theme {
+  --font-clash: "ClashDisplay", sans-serif;
+  --font-clashMedium: "ClashDisplayMedium", sans-serif;
+  --font-clashBold: "ClashDisplayBold", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "ClashDisplay";
+  /* font-family: "ClashDisplay"; */
 }
