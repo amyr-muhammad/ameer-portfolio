@@ -21,13 +21,13 @@
 
 @theme {
   --font-clash: "ClashDisplay", sans-serif;
-  --font-clashMedium: "ClashDisplayMedium", sans-serif;
-  --font-clashBold: "ClashDisplayBold", sans-serif;
+  --font-clash-medium: "ClashDisplayMedium", sans-serif;
+  --font-clash-bold: "ClashDisplayBold", sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "ClashDisplay"; */
+  font-family: "ClashDisplay";
 }

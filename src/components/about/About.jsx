@@ -5,9 +5,10 @@ import { BiLogoGmail } from "react-icons/bi";
 
 function About() {
     return (
-        <div className="relative w-full min-h-screen bg-[url('/src/assets/images/checkbackground.jpg')] bg-no-repeat bg-cover overflow-hidden">
+        <div className="relative w-full min-h-screen 
+        bg-[url('/src/assets/images/checkbackground.jpg')] bg-no-repeat bg-cover overflow-hidden">
 
-            <h2 className="text-[#1a1a4c] font-[1000] text-3xl ps-3 pt-4
+            <h2 className="text-[#1a1a4c] font-[1000] text-3xl ps-3 pt-4 font-clash-bold
                             sm:text-5xl sm:ps-5 sm:pt-6
                             md:text-7xl md:ps-7 md:pt-8
                             lg:ps-9 lg:pt-10">
@@ -22,7 +23,7 @@ function About() {
             />
 
             {/* grid layout */}
-            <div className="relative z-10 grid grid-cols-1 gap-4 p-5
+            <div className="relative z-10 grid grid-cols-1 gap-4 p-5 font-clash-medium
                             sm:grid-cols-2
                             lg:grid-cols-3 lg:grid-rows-2 lg:h-[calc(100vh-130px)]">
 
@@ -74,7 +75,7 @@ function About() {
                 <div className="hidden sm:block lg:col-start-3 lg:row-start-2 lg:self-end lg:absolute">
                     <div className="lg:relative lg:bottom-10 lg:left-10">
                         <GlassCard size="medium">
-                            <h3 className="lg:text-xl"><b>Tech Stack:</b></h3>
+                            <b>Tech Stack:</b>
                             <div className="grid grid-cols-3 gap-2 justify-items-center mt-2">
                                 <img src="./src/assets/images/Icons/html5.png" alt="HTML5" className="w-13" />
                                 <img src="./src/assets/images/Icons/css.png" alt="CSS3" className="w-13" />

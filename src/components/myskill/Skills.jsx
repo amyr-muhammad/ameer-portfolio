@@ -8,7 +8,7 @@ function Skills() {
                         bg-[url('/src/assets/images/bluebg.jpg')] 
                         bg-no-repeat bg-cover overflow-hidden">
             {/* Heading Text */}
-            <h2 className="text-[#bdbdbd] font-[1000] text-3xl ps-3 pt-4
+            <h2 className="text-[#bdbdbd] font-[1000] text-3xl ps-3 pt-4 font-clash-bold
                             sm:text-5xl sm:ps-5 sm:pt-6
                             md:text-7xl md:ps-7 md:pt-8
                             lg:ps-9 lg:pt-10">
