@@ -19,7 +19,7 @@ function About() {
             <img
                 src="./src/assets/images/Character.png"
                 alt="Ameer's avatar"
-                className="hidden lg:block absolute -bottom-3 left-1/2 -translate-x-1/2 h-[110vh] object-contain drop-shadow-xl z-0 pointer-events-none"
+                className="hidden lg:block absolute -bottom-3.75 left-1/2 -translate-x-1/2 h-[120vh] object-contain object-bottom drop-shadow-xl z-0 pointer-events-none"
             />
 
             {/* grid layout */}

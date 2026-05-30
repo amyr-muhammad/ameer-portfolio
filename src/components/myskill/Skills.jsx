@@ -18,16 +18,16 @@ function Skills() {
             <img
                 src="./src/assets/images/Character.png"
                 alt="Ameer's avatar"
-                className="hidden lg:block absolute -bottom-3 left-1/2 -translate-x-1/2 h-[110vh] object-contain drop-shadow-xl z-0 pointer-events-none"
+                className="hidden lg:block absolute -bottom-3.75 left-1/2 -translate-x-1/2 h-[120vh] object-contain object-bottom drop-shadow-xl z-0 pointer-events-none"
             />
 
             {/* glass ui with icons in it  */}
 
-            <div className="grid grid-cols-5 grid-rows-5 gap-x-4 gap-y-20  mt-20">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 lg:grid-rows-5 gap-x-4 gap-y-4 sm:gap-y-6 lg:gap-x-4 lg:gap-y-20 mt-8 sm:mt-12 lg:mt-20 px-4 sm:px-6 lg:px-0 pb-8 lg:pb-0">
 
                 {/* figma icon */}
-                <div className="row-span-2 rotate-345 relative">
-                    <div className="absolute left-40">
+                <div className="lg:row-span-2 lg:rotate-345 relative lg:relative">
+                    <div className="flex justify-center lg:absolute lg:left-40">
                         <Glasscard size="square">
                             <img src="./src/assets/images/bigicons/figma.png" alt="Figma" className="w-25" />
                         </Glasscard>
@@ -36,8 +36,8 @@ function Skills() {
                 </div>
 
                 {/* css glass icon */}
-                <div className="row-span-2 col-start-1 row-start-3 rotate-6 relative">
-                    <div className="absolute left-50">
+                <div className="lg:row-span-2 lg:col-start-1 lg:row-start-3 lg:rotate-6 relative">
+                    <div className="flex justify-center lg:absolute lg:left-50">
                         <Glasscard size="square">
                             <img src="./src/assets/images/bigicons/css.png" alt="Css" className="w-25" />
                         </Glasscard>
@@ -45,8 +45,8 @@ function Skills() {
                 </div>
 
                 {/* Tailwind glass icon */}
-                <div className="row-span-2 col-start-2 row-start-1 rotate-12  relative">
-                    <div className="absolute top-20 left-30">
+                <div className="lg:row-span-2 lg:col-start-2 lg:row-start-1 lg:rotate-12 relative">
+                    <div className="flex justify-center lg:absolute lg:top-20 lg:left-30">
                         <Glasscard size="square">
                             <img src="./src/assets/images/bigicons/tailwind.png" alt="Tailwind" className="w-25 " />
                         </Glasscard>
@@ -56,8 +56,8 @@ function Skills() {
                 {/* grid cell here */}
 
                 {/* javascript glass icon */}
-                <div className="row-span-2 col-start-4 row-start-1 relative">
-                    <div className="absolute bottom-25 left-20 rotate-10">
+                <div className="lg:row-span-2 lg:col-start-4 lg:row-start-1 relative">
+                    <div className="flex justify-center lg:absolute lg:bottom-25 lg:left-20 lg:rotate-10">
                         <Glasscard size="square">
                             <img src="./src/assets/images/bigicons/js.png" alt="JS" className="w-25" />
                         </Glasscard>
@@ -65,8 +65,8 @@ function Skills() {
                 </div>
 
                 {/* vs code glass icon */}
-                <div className="row-span-2 col-start-4 row-start-3 relative">
-                    <div className="absolute bottom-20 left-10 rotate-350">
+                <div className="lg:row-span-2 lg:col-start-4 lg:row-start-3 relative">
+                    <div className="flex justify-center lg:absolute lg:bottom-20 lg:left-10 lg:rotate-350">
                         <Glasscard size="square">
                             <img src="./src/assets/images/bigicons/vs.png" alt="VS code" className="w-25" />
                         </Glasscard>
@@ -74,8 +74,8 @@ function Skills() {
                 </div>
 
                 {/* Html5 Glass icon */}
-                <div className="row-span-2 col-start-5 row-start-1">
-                    <div className="rotate-345">
+                <div className="lg:row-span-2 lg:col-start-5 lg:row-start-1 relative">
+                    <div className="flex justify-center lg:block lg:rotate-345">
                         <Glasscard size="square">
                             <img src="./src/assets/images/bigicons/html5.png" alt="HTML5" className="w-25" />
                         </Glasscard>
@@ -83,8 +83,8 @@ function Skills() {
                 </div>
 
                 {/* React js glass icon */}
-                <div className="row-span-2 col-start-5 row-start-3 relative">
-                    <div className="absolute top-15 right-60 rotate-13">
+                <div className="lg:row-span-2 lg:col-start-5 lg:row-start-3 relative">
+                    <div className="flex justify-center lg:absolute lg:top-15 lg:right-60 lg:rotate-13">
                         <Glasscard size="square">
                             <img src="./src/assets/images/bigicons/reactjs.png" alt="React js" className="w-25" />
                         </Glasscard>
