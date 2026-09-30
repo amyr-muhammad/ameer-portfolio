@@ -5,8 +5,7 @@ import { BiLogoGmail } from "react-icons/bi";
 
 function About() {
     return (
-        <div className="relative w-full min-h-screen 
-        bg-[url('/src/assets/images/checkbackground.jpg')] bg-no-repeat bg-cover overflow-hidden">
+        <div className="relative w-full h-screen ">
 
             <h2 className="text-[#1a1a4c] font-[1000] text-3xl ps-3 pt-4 font-clash-bold
                             sm:text-5xl sm:ps-5 sm:pt-6
@@ -15,12 +14,12 @@ function About() {
                 About me
             </h2>
 
-            {/* character*/}
+            {/* character
             <img
                 src="./src/assets/images/Character.png"
                 alt="Ameer's avatar"
                 className="hidden lg:block absolute -bottom-3.75 left-1/2 -translate-x-1/2 h-[120vh] object-contain object-bottom drop-shadow-xl z-0 pointer-events-none"
-            />
+            /> */}
 
             {/* grid layout */}
             <div className="relative z-10 grid grid-cols-1 gap-4 p-5 font-clash-medium

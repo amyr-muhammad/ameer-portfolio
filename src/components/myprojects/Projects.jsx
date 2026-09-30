@@ -1,4 +1,4 @@
-import CircularGallery from "../circularcarousel/CircularGallery"
+import ProjectsArc from "./ProjectsArc"
 
 const projects = [
     { image: '/projects/project1.jpg',  },
@@ -21,15 +21,7 @@ export default function ProjectsSection() {
                                text-center pt-5">Projects I have <br /> made
                 </h3>
 
-                {/* <div className=" flex-1 w-full"  style={{ height: 'calc(100vh - 220px)' }}>
-                    <CircularGallery
-                        items={projects}
-                        bend={6}            
-                        borderRadius={0.06} 
-                        scrollSpeed={1.9}   
-                        textColor="#1a1a4c"
-                    />
-                </div> */}
+              <ProjectsArc />
 
             </div>
 

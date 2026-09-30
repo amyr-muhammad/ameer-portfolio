@@ -1,27 +1,13 @@
-
+import charImg from "../../assets/images/Character.png"
 function Character() {
     return (
         <>
-            <div className="
-                        w-[40vw] sm:w-[23vw] md:w-[24vw] lg:w-[25vw]
-                        aspect-3/4
-                        flex 
-                        justify-center 
-                        items-end 
-                        bg-[#bdbdbd] 
-                        rounded-[25%]
-                        overflow-hidden
-                        my-auto
-                        shrink-0
-                        z-10
-                        
-                        ">
-                <img
-                    src="/src/assets/images/Character.png"
-                    alt="Character"
-                    className="w-full h-full object-cover object-bottom translate-y-2"
-                />
-            </div>
+
+            <img
+                src={charImg}
+                alt="Ameer's avatar"
+                className="hidden lg:block absolute -bottom-3.75 left-1/2 -translate-x-1/2 h-[120vh] object-contain object-bottom drop-shadow-xl z-0 pointer-events-none"
+            />
         </>
     )
 }
